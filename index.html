@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lateinmausapp</title>
+    <link rel="stylesheet" href="style.css"><!--CSS Datei-->
+    <script src="main.js"></script><!--JavaScript Datei-->
+    <link rel="manifest" href="manifest.webmanifest">
+</head>
+<body>
+    <header>
+        <h1>Lateinmausapp</h1>
+    </header>
+    <main>
+        <div id="welcome">
+            <h3>Willkommen zur Lateinmausapp!</h3>
+        </div>
+        <div id="latinMenu">
+            <details id="homework">
+                <summary class="lMenu">Hausaufgabe</summary>
+                <div class="content">
+                    <iframe src="https://learningapps.org/watch?v=pojwq0j2j22" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                </div>
+            </details>
+
+            <details id="textSolutions">
+                <summary class="lMenu">Lösung Texte</summary>
+                <div class="content">
+                    <iframe src="https://learningapps.org/watch?v=pm1ibsvrc22" style="border:0px;width:100%;height:500px" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe>
+                </div>
+            </details>
+
+            <details id="dictionary">
+                <summary class="lMenu">Wörterbuch</summary>
+                <div class="content">
+                    <iframe src="https://www.navigium.de/latein-woerterbuch/lateinmaus?wb=schul&nr=1"></iframe>
+                </div>
+            </details>
+
+            <details id="grammar">
+                <summary onclick="document.location = 'https://lateinmaus.netlify.app/html/lateingrammatik.html'" class="lMenu">Lateingrammatik</summary>
+            </details>
+
+            <details id="book">
+                <summary onclick="document.location = 'https://www.ccbuchner.de/_files_media/livebook/5011/'" class="lMenu">Lateinbuch</summary>
+            </details>
+        
+            <details id="exercises">
+                <summary class="lMenu">Online-Übungen</summary>
+                <div class="content">
+                    <ul>
+                        <li><a href="https://learningapps.org/user/kornbl%C3%BC3?displayfolder=4245609&code=6282">6. Klasse</a></li>
+                        <li><a href="https://learningapps.org/user/kornbl%C3%BC3?displayfolder=4245611&code=6282">7. Klasse</a></li>
+                        <li><a href="https://learningapps.org/user/kornbl%C3%BC3?displayfolder=4245613&code=6282">8. Klasse</a></li>
+                        <li><a href="https://learningapps.org/user/kornbl%C3%BC3?displayfolder=4668792&code=6282">9. Klasse</a></li>
+                      </ul>
+                </div>
+            </details>
+
+            <details id="hermeneus">
+                <summary onclick="document.location = 'https://www.hermeneus.eu/'" class="lMenu">Hermeneus</summary>
+            </details>
+        </div>
+        <footer>
+            2023 Lateinmausapp | Projekt der <a href="https://lateinmaus.netlify.app">Lateinmaus</a>
+        </footer>
+    </main>
+</body>
+</html>
