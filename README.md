@@ -1,3 +1,3 @@
 # Lateinmausapp
 The application for Lateinmaus
-Livedemo: lateinmausapp.netlify.app
+Livedemo: https://lateinmausapp.netlify.app
