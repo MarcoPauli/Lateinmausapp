@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
 header {
     font-family: Papyrus;
     text-align: center;
-    background-color: green;
+    background-color: blue;
     color: white;
     position: fixed;
     top: 0;
